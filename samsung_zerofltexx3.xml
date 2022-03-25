@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="los-zerofltexx" fetch="https://gitlab.com/los-zerofltexx/" />
+
+	<project path="device/samsung/zerofltexx" name="android_device_samsung_zerofltexx" remote="los" />
+	<project path="device/samsung/zero-common" name="android_device_samsung_zero-common" remote="los" />
+		
+	<project path="hardware/samsung" name="Halium/android_hardware_samsung" remote="hal" />
+	<project path="hardware/samsung_slsi-cm/exynos" name="android_hardware_samsung_slsi-cm_exynos" remote="los" />
+	<project path="hardware/samsung_slsi-cm/exynos5" name="android_hardware_samsung_slsi-cm_exynos5" remote="los" />
+	<project path="hardware/samsung_slsi-cm/exynos7420" name="android_hardware_samsung_slsi-cm_exynos7420" remote="los" />
+	<project path="hardware/samsung_slsi-cm/openmax" name="android_hardware_samsung_slsi-cm_openmax" remote="los" />
+	
+	<project path="kernel/samsung/exynos7420" name="android_kernel_samsung_exynos7420" remote="los" revision="cm-14.1-20171215"/>
+	
+</manifest>
